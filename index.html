@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MyWeb</title>
+    <link rel="stylesheet" href="./styles/riset.css" />
+    <link rel="stylesheet" href="./styles/header-footer.css" />
+    <link rel="stylesheet" href="./styles/add.css" />
+    <link rel="stylesheet" href="./styles/responsive.css" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="container">
+        <nav class="nav">
+          <!-- This is the menu in descktop. -->
+          <ul class="header__list">
+            <li class="header__item">
+              <a href="./index.html" class="header__link">description</a>
+            </li>
+            <li class="header__item">
+              <a href="./goals.html" class="header__link">goals</a>
+            </li>
+            <li class="header__item">
+              <a href="./rules.html" class="header__link">rules</a>
+            </li>
+            <li class="header__item">
+              <a href="./section.html" class="header__link">section</a>
+            </li>
+          </ul>
+
+          <!-- ********************************************************* -->
+
+          <!-- This is the berger menu -->
+          <div class="header__menu-icon">
+            <label for="header__input" class="header__label">
+              <!-- These spans will be the lines of berger menu. -->
+              <span class="header__menu-line"></span>
+              <span class="header__menu-line"></span>
+              <span class="header__menu-line"></span>
+            </label>
+          </div>
+
+          <!-- This is to activate the menu. -->
+          <input type="checkbox" class="header__input" id="header__input" />
+
+          <!-- This is the menu items in mobile. -->
+          <ul class="header__list-mobile">
+            <li class="header__item-mobile">
+              <a href="./index.html" class="header__link-mobile">description</a>
+            </li>
+            <li class="header__item-mobile">
+              <a href="./goals.html" class="header__link-mobile">goals</a>
+            </li>
+            <li class="header__item-mobile">
+              <a href="./rules.html" class="header__link-mobile">rules</a>
+            </li>
+            <li class="header__item-mobile">
+              <a href="./section.html" class="header__link-mobile">section</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+      <div class="divider"></div>
+    </header>
+    <main class="main">
+      <div class="container">
+        <section class="description">
+          <h1 class="descripton__title">description</h1>
+          <p class="description__text">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae
+            rerum consequuntur adipisci ut consectetur quae temporibus beatae
+            iure! Tempora placeat consequatur, est nisi numquam molestiae quidem
+            dolores ullam omnis ipsum facilis veritatis, iste, repudiandae
+            mollitia porro earum nobis soluta! Laboriosam at reprehenderit
+            placeat iste est ratione, rerum molestias tempora dolorum.
+          </p>
+          <p class="description__text">
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Reiciendis
+            assumenda cupiditate ea explicabo veritatis maxime fuga voluptatum
+            optio quo natus neque eius, impedit consequatur ut est iste quasi
+            aperiam quae ipsam voluptate? Rerum aliquam cumque fugiat ullam
+            soluta aspernatur dignissimos perspiciatis laborum, perferendis
+            delectus labore nobis asperiores vero obcaecati, consectetur quia
+            praesentium nemo explicabo beatae?
+          </p>
+        </section>
+        <section class="cards">
+          <div class="card">
+            <div class="card__icon description-icon">description</div>
+            <h3 class="card__title">description</h3>
+            <a href="./index.html" class="card__link">more</a>
+          </div>
+          <div class="card">
+            <div class="card__icon">
+              <img src="./images/goals.png" alt="Goals" class="card--img" />
+            </div>
+            <h3 class="card__title">goals</h3>
+            <a href="./goals.html" class="card__link">more</a>
+          </div>
+          <div class="card">
+            <div class="card__icon">
+              <img
+                src="./images/rules.png"
+                alt="Rules"
+                class="card--img"
+                style="object-fit: fill"
+              />
+            </div>
+            <h3 class="card__title">rules</h3>
+            <a href="./rules.html" class="card__link">more</a>
+          </div>
+        </section>
+      </div>
+    </main>
+    <footer class="footer">
+      <div class="divider"></div>
+      <p class="footer__text">© 2025 MyWeb</p>
+    </footer>
+  </body>
+</html>

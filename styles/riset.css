@@ -1,0 +1,83 @@
+:root {
+  /* ---------------------------------------------------------------------- */
+
+  /* 
+
+-- colors --
+
+*/
+
+  --white: #fff;
+  --bg-color: #faf4f2;
+  --primary-color: #e76f51;
+  --light-primary-color: rgba(231, 111, 81, 0.5);
+  --secondary-color: #f8e1db;
+  --light-orange: #f8e1db;
+  --black: #3b3735;
+  --light-gray: #d2d2d2;
+  --medium-gray: rgba(141, 141, 141, 10%);
+  --dark-gray: #8d8d8d;
+
+  /* ---------------------------------------------------------------------- */
+
+  /* 
+
+-- fonts --
+
+*/
+
+  font-family: sans-serif;
+
+  /* ---------------------------------------------------------------------- */
+
+  /* 
+
+-- m&p --
+
+*/
+
+  --m-1: 0.8rem;
+  --m-2: 1.2rem;
+  --m-3: 1.8rem;
+  --m-4: 2.2rem;
+
+  --p-1: 0.8rem;
+  --p-2: 1.2rem;
+  --p-3: 1.8rem;
+  --p-4: 2.2rem;
+
+  --mb-1: 0.8rem;
+  --mb-2: 1.2rem;
+  --mb-3: 1.8rem;
+  --mb-4: 2.2rem;
+
+  --pb-1: 0.8rem;
+  --pb-2: 1.2rem;
+  --pb-3: 1.8rem;
+  --pb-4: 2.2rem;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  border: none;
+  outline: none;
+}
+body {
+  background-color: var(--bg-color);
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+.nav__menu {
+  display: none;
+}
+ul,
+ol {
+  list-style: none;
+}
+.header-btn__container--mobile,
+.nav__list--mobile {
+  display: none;
+}
